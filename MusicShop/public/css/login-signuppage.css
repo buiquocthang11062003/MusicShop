@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* chung */
+.mr150{
+    margin-top: 100px;
+}
+
+.mr90{
+    margin-left: 90px;
+}
+
+/*  */
+
+.container{
+    height:750px;
+    background-image: url("/img/black\ gr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    background-color: rgb(69, 68, 68);
+}
+
+.content{
+    width:60%;
+    padding-left: 140px;
+}
+
+.content .logo{
+    font-weight: 700;
+}
+
+.logo{
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.content-form{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+
+.items{
+    margin-top: 40px;
+    font-weight: 400;
+}
+.so1{
+    width: 300px;
+}
+
+.footer{
+    margin-top: 30px;
+    margin-left: -28px;
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-app{
+    color: white;
+}
+
+.icon-app:hover{
+   transform: scale(1.5);
+   transition: 0.3s ease;
+   color: black;
+}
+
+.form-signup-login{
+    width: 40%;
+    height: 750px;
+    background-color:  rgba(0,0,0,0.31);
+}
+
+.nameform{
+    font-weight: 200;
+    letter-spacing: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subform .ip{
+    color: white ;
+    width: 380px;
+    outline: none;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    padding: 15px 5px;
+    margin-top: 40px;
+    border-bottom: 1px solid white;
+}
+
+input[name="email"]::placeholder,
+input[name="name"]::placeholder,
+input[name="password"]::placeholder   {
+  color: rgb(231, 216, 216); /* thay đổi màu theo ý muốn */
+}
+
+.footer-form{
+    margin-top: 50px;
+}
+
+
+
+.checkbox{
+    outline: none;
+    border: none;
+}
+
+
+.dy{ 
+    padding-left: 15px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.tick{
+    margin-bottom: 50px;
+}
+.btn-log{
+    padding: 10px 25px;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-log:hover{
+    background-color: rgb(184, 131, 233);
+    color: rgb(20, 18, 18);
+    transition: 0.5s ease;
+}
+
+.have{
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    color: white;
+    font-size: 13px;
+}
+
+.fogot a{
+    opacity: 0.8;
+    text-decoration: none;
+    color: white ;
+    font-size: 15px;
+}
+.fogot a:hover{
+    color: #90ea77;
+}
